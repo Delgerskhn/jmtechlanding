@@ -2560,6 +2560,15 @@ blockquote {
   background-repeat: repeat-x;
 }
 
+.section-3.bg-article-2 {
+  /* min-height: 600px; */
+  background-image: url("../zaraw/POST\ 1.png");
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+
 .section-3.bgaccent {
   overflow: visible;
   margin-bottom: 0px;
