@@ -2562,12 +2562,11 @@ blockquote {
 
 .section-3.bg-article-2 {
   /* min-height: 600px; */
-  background-image: url("../zaraw/POST\ 1.png");
+  background-image: url("../zaraw/zarawdetail.jpg");
   background-position: 100% 100%;
   background-size: cover;
   background-repeat: repeat-x;
 }
-
 
 .section-3.bgaccent {
   overflow: visible;
@@ -3997,10 +3996,12 @@ blockquote {
     -ms-grid-rows: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr)
       minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr)
       minmax(400px, 1fr);
-    grid-template-rows: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr) minmax(
+    grid-template-rows:
+      minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr) minmax(
         400px,
         1fr
-      ) minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr);
+      )
+      minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr);
   }
 }
 
@@ -4321,10 +4322,12 @@ blockquote {
     grid-template-columns: 1fr;
     -ms-grid-rows: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr)
       minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr);
-    grid-template-rows: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr) minmax(
+    grid-template-rows:
+      minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr) minmax(
         400px,
         1fr
-      ) minmax(400px, 1fr) minmax(400px, 1fr);
+      )
+      minmax(400px, 1fr) minmax(400px, 1fr);
   }
 }
 
