@@ -301,6 +301,18 @@ blockquote {
   font-size: 16px;
 }
 
+.wave{
+  background: whitesmoke;
+  clip-path: polygon(21% 8%, 30% 26%, 50% 34%, 59% 53%, 77% 61%, 84% 78%, 100% 86%, 100% 100%, 0 100%, 0 0);
+  
+  height: 100vh;  
+}
+
+.wave2{
+
+}
+
+
 .section.bg-color-hero {
   position: static;
   margin-top: 0px;
@@ -639,7 +651,7 @@ blockquote {
   right: 0%;
   bottom: auto;
   overflow: hidden;
-  width: 1660px;
+  width: 1960px;
   max-width: none;
   margin-left: 420px;
   -webkit-transform: translate(-50%, 0px);
@@ -1746,7 +1758,8 @@ blockquote {
   -ms-flex-align: start;
   align-items: flex-start;
   border-radius: 7px;
-  background-color: #9f5dff;
+  background-color: #fff;
+  border: 1px solid silver;
 }
 
 .testimonial-container.border {
@@ -1785,9 +1798,17 @@ blockquote {
 }
 
 .small-slide {
-  width: 50%;
+  width: 30%;
   padding-right: 30px;
   padding-left: 30px;
+}
+.small-slide-icon {
+  position: absolute; top: -20px; width: 100%; display: flex;left: -60px;
+  top: -55px;
+  
+}
+.small-slide-icon img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hive {
@@ -4029,6 +4050,17 @@ blockquote {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+
+  .pol {
+    margin: 20rem; padding : 10rem ; padding-top: 20rem;
+ }
+  @media screen and (max-width : 992px){
+    .pol {
+       margin-left: 10rem !important;
+       background-color: thistle;
+    }
+  }
+
   .col.lg-4.box.shiftdown-50.md-6 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
