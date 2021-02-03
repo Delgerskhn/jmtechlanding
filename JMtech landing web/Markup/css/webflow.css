@@ -963,6 +963,7 @@ textarea.w-select {
 }
 .w-slide-1  p {
   color: #000;
+
 }
 .w-slide-1 h4{
   color: #000;
@@ -970,8 +971,11 @@ textarea.w-select {
 }
 .w-slide-1 h5{
   color: #000;
-
 }
+.w-slide-1 a{
+  text-decoration: none;
+}
+
 
 @media screen and (max-width : 992px){
   .w-slide-1{

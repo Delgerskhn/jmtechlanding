@@ -302,8 +302,6 @@ blockquote {
 }
 
 .wave{
-  background: whitesmoke;
-  clip-path: polygon(21% 8%, 30% 26%, 50% 34%, 59% 53%, 77% 61%, 84% 78%, 100% 86%, 100% 100%, 0 100%, 0 0);
   
   height: 100vh;  
 }
